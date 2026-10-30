@@ -120,6 +120,11 @@ The tests check, among other things, that every pretraining target view contains
 `(t, t + Δ]`, that context views contain no row after `t`, and that pretraining windows end on or
 before the validation cutoff.
 
+## License
+
+The code in this repository is released under the MIT License (see `LICENSE`). Third-party code
+under `third_party/` keeps its own license, as described below.
+
 ## Third-party code
 
 `third_party/task-vector-estimation/` is a modified copy of
