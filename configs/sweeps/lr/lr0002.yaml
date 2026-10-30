@@ -1,0 +1,5 @@
+# TVE fine-tuning LR grid. Read by parse_sweep_config.
+optimizer:
+  lr: 0.002
+lr_scheduler:
+  warmup_steps: 1

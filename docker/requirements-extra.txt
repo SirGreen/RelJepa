@@ -1,0 +1,10 @@
+# Packages TVE imports but does not list, plus tools we need.
+# The Hugging Face stack is pinned to Sept-2024 releases (TVE's own pins date from then): the latest
+# transformers requires torch>=2.2 (torch.utils._pytree.register_pytree_node) and breaks torch 2.1.2.
+transformers==4.44.2
+huggingface-hub==0.24.7
+tokenizers==0.19.1
+safetensors==0.4.5
+prince
+gdown
+pytest

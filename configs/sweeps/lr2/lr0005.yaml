@@ -1,0 +1,5 @@
+# Reduced LR grid for the 4 GB laptop: {1e-3, 5e-3}, both within TVE Table 4 selections.
+optimizer:
+  lr: 0.005
+lr_scheduler:
+  warmup_steps: 1
